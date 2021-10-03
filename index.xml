@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Yakeing Blog</title><link>https://yake.tk/</link><description>Recent content on Yakeing Blog</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>CC BY-SA 4.0</copyright><lastBuildDate>Mon, 02 Nov 2020 01:57:52 +0800</lastBuildDate><atom:link href="https://yake.tk/index.xml" rel="self" type="application/rss+xml"/><item><title>Referrer 策略</title><link>https://yake.tk/post/Referrer.html</link><pubDate>Mon, 02 Nov 2020 01:57:52 +0800</pubDate><guid>https://yake.tk/post/Referrer.html</guid><description>&lt;h3 id="referrer-policy">Referrer Policy&lt;/h3>
+&lt;p>在页面引入图片、JS 等资源或者当一个用户点击当前页面中的一个链接，然后跳转到目标页面时，目标页面会收到一个信息，即用户是从哪个源链接跳转过来的。也就是说，当你发起一个 &lt;strong>http&lt;/strong> 请求，请求头中的 &lt;strong>referrer&lt;/strong> 字段就说明了你是从哪个页面发起该请求的。&lt;/p>
+&lt;p>特别使用 &lt;strong>网站统计&lt;/strong> 和做 &lt;strong>广告联盟&lt;/strong> 的因为没有页面地址无法准确判断页面给出正确结果甚至可能被判违规。&lt;/p></description></item><item><title>HTML状态码</title><link>https://yake.tk/post/HtmlStatusCode.html</link><pubDate>Wed, 21 Oct 2020 16:25:15 +0800</pubDate><guid>https://yake.tk/post/HtmlStatusCode.html</guid><description>&lt;p>HTTP状态码的英文为HTTP Status Code 是用以表示网页服务器超文本传输协议响应状态的3位数字代码。&lt;/p>
+&lt;p>HTTP状态码的官方注册表由互联网号码分配局(Internet Assigned Numbers Authority)维护。&lt;/p>
+&lt;p>当浏览者访问一个网页时, 浏览者的浏览器会向网页所在服务器发出请求。当浏览器接收并显示网页前, 此网页所在的服务器会返回一个包含HTTP状态码的信息头(server header)用以响应浏览器的请求。&lt;/p></description></item><item><title>防止网站文章被采集</title><link>https://yake.tk/post/Copyright.html</link><pubDate>Wed, 21 Oct 2020 15:28:10 +0800</pubDate><guid>https://yake.tk/post/Copyright.html</guid><description>&lt;p>作为一名SEOer，相信大家都应该听说过“文章采集”，自己原创手写的文章半小时内被别人原模原样采集走了，最可气的是自己发布的文章没有排名，甚至是还没有被百度搜索引擎收录，而那个采集我们文章的人却已经拥有了一个很不错的排名，相当于我们在给别人做嫁衣，大家是不是看到这种采集的人就很头痛。&lt;/p></description></item><item><title>Hugo的基本用法</title><link>https://yake.tk/post/Hugo.html</link><pubDate>Sun, 18 Oct 2020 13:49:50 +0800</pubDate><guid>https://yake.tk/post/Hugo.html</guid><description>&lt;h3 id="概念">概念&lt;/h3>
+&lt;p>hugo是由Go语言实现的静态网站生成器。简单、易用、高效、易扩展、快速部署。&lt;/p>
+&lt;p>主要用于个人Blog、项目文档、初创公司站点构建。&lt;/p>
+&lt;p>hugo的下载安装很简单，可以参考官方的quickstart，本文主要介绍一下hugo框架的基本概念和工作原理。&lt;/p></description></item><item><title>数字货币来了</title><link>https://yake.tk/post/DCEP.html</link><pubDate>Sat, 19 Sep 2020 18:35:13 +0800</pubDate><guid>https://yake.tk/post/DCEP.html</guid><description>&lt;blockquote>
+&lt;p>商务部官网14日发布 &lt;strong>《关于印发全面深化服务贸易创新发展试点总体方案的通知》&lt;/strong> （以下简称 &lt;strong>《方案》&lt;/strong> ），其中公布了数字人民币试点地区。这让数字人民币再度引发人们的关注。&lt;/p>
+&lt;/blockquote>
+&lt;p>对于中国的消费者来说，移动支付深度融入了我们的日常生活，大家可能会有这样的疑惑：数字人民币到底是什么？跟比特币类似吗？跟我们熟悉的电子支付手段又有什么区别？它会取代纸币吗?&lt;/p></description></item><item><title>常用 Markdown 语法</title><link>https://yake.tk/post/Markdown.html</link><pubDate>Thu, 17 Sep 2020 13:32:05 +0800</pubDate><guid>https://yake.tk/post/Markdown.html</guid><description>&lt;h3 id="什么是markdown">什么是Markdown?&lt;/h3>
+&lt;p>Markdown 是一种轻量级标记语言，它允许人们使用易读易写的纯文本格式编写文档。&lt;/p>
+&lt;p>Markdown 语言在 2004 由约翰·格鲁伯（John Gruber）创建。&lt;/p>
+&lt;p>Markdown 编写的文档可以导出 &lt;code>HTML&lt;/code> 、&lt;code>Word&lt;/code>、&lt;code>图像&lt;/code>、&lt;code>PDF&lt;/code>、&lt;code>Epub&lt;/code> 等多种格式的文档。&lt;/p></description></item><item><title>比特币是什么</title><link>https://yake.tk/post/Bitcoin.html</link><pubDate>Wed, 09 Sep 2020 14:10:50 +0800</pubDate><guid>https://yake.tk/post/Bitcoin.html</guid><description>&lt;h3 id="什么是比特币">什么是比特币?&lt;/h3>
+&lt;p>比特币（&lt;code>Bitcoin&lt;/code>，缩写BTC）是一种&lt;strong>总量恒定2100万的数字货币&lt;/strong>，和互联网一样具有去&lt;strong>中心化、全球化、匿名性&lt;/strong>等特性。向地球另一端转账比特币，就像发送电子邮件一样&lt;strong>简单，低成本，无任何限制&lt;/strong>。比特币因此被用于&lt;strong>跨境贸易、支付、汇款&lt;/strong>等领域。比特币由于广阔的前景和巨大的遐想空间，自2009年诞生后价格持续上涨，2011年币价达到1美元，2013年最高达到1200美元，超过1盎司黄金价格，有“数字黄金”的美称（目前币价约450美元）。&lt;/p></description></item><item><title>使用hugo+github博客搭建教程</title><link>https://yake.tk/post/GithubHugoBlog.html</link><pubDate>Wed, 02 Sep 2020 17:20:33 +0800</pubDate><guid>https://yake.tk/post/GithubHugoBlog.html</guid><description>&lt;h3 id="什么是hugo">什么是Hugo?&lt;/h3>
+&lt;p>Hugo是由Go语言实现的静态网站生成器。简单、易用、高效、易扩展、快速部署。对比Hexo，Hugo仅需一个二进制文件（hugo.exe）即可实现网站生成的生成。而且就如它官网介绍：&lt;code>The world’s fastest framework for building websites&lt;/code>。Hugo是目前最快的网站构建框架。凭借其惊人的速度和灵活性，解决了环境依赖、性能较差的问题，还有使用简单、部署方便等诸多优点，通过&lt;code>LiveReload&lt;/code>实时刷新，极大的优化文章的写作体验。Hugo使建站再次变得有趣。&lt;/p></description></item><item><title>Hello World</title><link>https://yake.tk/post/HelloWorld.html</link><pubDate>Mon, 07 Oct 2019 14:50:48 +0000</pubDate><guid>https://yake.tk/post/HelloWorld.html</guid><description>&lt;h3 id="有个流传挺广的笑话">有个流传挺广的笑话&lt;/h3>
+&lt;p>某程序员对书法十分感兴趣，退休后决定在这方面有所建树。于是花重金购买了上等的文房四宝。一日，饭后突生雅兴，一番磨墨拟纸，并点上了上好的檀香，颇有王羲之风范，又具颜真卿气势，定神片刻，泼墨挥毫，郑重地写下:&lt;/p>
+&lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-html" data-lang="html">Hello World
+&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>作者</title><link>https://yake.tk/author.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://yake.tk/author.html</guid><description>作者 It&amp;rsquo;s my new attempt, so I hope all of you will support this blog.
+一个普普通通的 CodeR 希望通过这个博客和大家一起学习更多知识。
+因作者才疏学浅文章内容难免有错误之处，希望各位大神能够指正。
+目的 传播知识,分享快乐,交流技术与经验.
+历史 2019年10月01日 开始本地调试修改主题完善基本功能. 2019年10月07日 版本调试完成部分功能待日后完善，布局 Github 完成. 2019年10月11日 使用 Github Issues 第三方开发插件作为评论系统. 2019年10月12日 添加新CSS样式表,弥补 highlight 样式不完整. 2020年9月20日 添加自定义简码 Hugo shortcodes 弥补自 Hugo v0.60.0 更换 Goldmark 默认 Markdown 渲染器，但不能使用内联 HTML 代码缺陷(当然可以开启支持模式不过没必要). 2020年10月6日 做小规模调整丰富样式，再次优化主题原代码. 赞助 如果如果觉得文章的内容对你有所帮助就请给点赞助我们能对文章有持续更新能力
+WeChat (微信赞助)
+Alipay (支付宝赞助)
+Bitcoin (比特币赞助)
+1FYbZECgs3V3zRx6P7yAu2nCDXP2DHpwt8
+致谢</description></item><item><title>图标</title><link>https://yake.tk/icon.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://yake.tk/icon.html</guid><description>Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen readers do not read off random characters that represent icons
+Font Awesome 4.1.0 by @davegandy - fontawesome.io
+icon class code .fa-glass f000 .fa-music f001 .fa-search f002 .fa-envelope-o f003 .fa-heart f004 .</description></item><item><title>版权</title><link>https://yake.tk/copyright.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://yake.tk/copyright.html</guid><description>授权说明 本站所有文章如无特别声明均为 CC BY-SA 4.0 授权，关于 CC BY-SA 4.0 请自行前往 原页面 查看，如有更改条款将按照 CC BY-SA 4.0 官方新条款进行执行在此不再特意声明。
+CC BY-SA 4.0 中文名称： 署名-相同方式共享 4.0 国际
+这是一份普通人可以理解的 许可协议 概要 (但不是替代)
+免责声明 本文本仅仅强调部分核心特征和真正许可协议的部分条款，不是许可协议，也没有法律意义。您应当在使用授权作品前，仔细审阅真正许可协议的所有条款。
+知识共享组织不是律师事务所，也不提供法律服务。分发、展示或链接到本文本或进行总结的许可协议并不意味着产生律师与客户的服务关系或其他类型的关系。
+您可以自由地： 共享 — 在任何媒介以任何形式复制、发行本作品
+演绎 — 修改、转换或以本作品为基础进行创作
+在任何用途下，甚至商业目的。
+本许可协议为 自由文化作品（Free Cultural Works） 所接受。
+只要你遵守许可协议条款，许可人就无法收回你的这些权利。
+惟须遵守下列条件： 署名 — 您必须给出 适当的署名 ，提供指向本许可协议的链接，同时 标明是否（对原始作品）作了修改 。您可以用任何合理的方式来署名，但是不得以任何方式暗示许可人为您或您的使用背书。
+相同方式共享 — 如果您再混合、转换或者基于本作品进行创作，您必须基于 与原先许可协议相同的许可协议 分发您贡献的作品。
+没有附加限制 — 您不得适用法律术语或者 技术措施 从而限制其他人做许可协议允许的事情。</description></item><item><title>资源</title><link>https://yake.tk/resources.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://yake.tk/resources.html</guid><description>配置状态 Ubuntu18.04 GitHub PagesActive licenseCC BY-SA 4.0 技术与资源 下面列举本网站使用的技术与相关资源的版本和官方网站:
+GitHub (Website) Hugo (v0.58.3) Highlight.js (v9.12.0) Pure.CSS (v1.0.1) Font Awesome (v4.1.0) GitHub GitHub是一个面向开源及私有软件项目的托管平台，因为只支持git 作为唯一的版本库格式进行托管，故名GitHub。
+GitHub于2008年4月10日正式上线，除了Git代码仓库托管及基本的 Web管理界面以外，还提供了订阅、讨论组、文本渲染、在线文件编辑器、协作图谱（报表）、代码片段分享（Gist）等功能。目前，其注册用户已经超过350万，托管版本数量也是非常之多，其中不乏知名开源项目 Ruby on Rails、jQuery、python 等。
+Hugo 作者 史蒂夫·弗朗西亚 (Steve Francia) google的产品负责人 现在美国纽约市
+Hugo是由Go语言实现的静态网站生成器。简单、易用、高效、易扩展、快速部署。
+Highlight.js 由 伊万·萨加拉耶夫(Ivan Sagalaev) 杰里米·赫尔(eremy Hull) 等人进行维护。
+Highlight.js是用JavaScript编写的语法突出显示工具。它在浏览器和服务器上均可使用。它几乎可以与任何标记一起使用，不依赖于任何框架，并且具有自动语言检测功能。 Github
+Pure.CSS 美国雅虎公司(Yahoo)
+是一组轻量级、响应式纯CSS模块，适用于任何Web项目。
+Font Awesome 由 戴夫·甘迪(Dave Gandy) 特拉维斯大通(Travis Chase) 耶利米切(Geremia Taglialatela) 布赖恩·塔尔博特(Brian Talbot) 共同维护该项目
+一套绝佳的图标字体库和CSS框架，Font Awesome 字体为您提供可缩放矢量图标,它可以被定制大小、颜色、阴影以及任何可以用CSS的样式。
+点击 图标 进行预览矢量图标 Github GitHub issues 使用是一个基于GitHub Issue开发的第三方评论插件。</description></item></channel></rss>

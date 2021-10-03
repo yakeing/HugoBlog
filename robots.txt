@@ -1,0 +1,10 @@
+# hugo Robots.txt
+User-agent: *
+Allow: /
+Allow: /archives/
+
+Disallow: /css/
+Disallow: /img/
+Disallow: /js/
+
+Sitemap: https://yake.tk/sitemap.xml

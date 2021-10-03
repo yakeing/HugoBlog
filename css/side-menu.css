@@ -1,0 +1,352 @@
+body {
+  color: #777;
+}
+
+.pure-img-responsive {
+  max-width: 100%;
+  height: auto;
+}
+
+/*
+Add transition to containers so they can push in and out.
+*/
+#layout,
+#menu,
+.menu-link {
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -ms-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
+/*
+This is the parent `<div>` that contains the menu and the content area.
+*/
+#layout {
+  position: relative;
+  left: 0;
+  padding-left: 0;
+}
+#layout.active #menu {
+  left: 150px;
+  width: 150px;
+}
+
+/** banner 横幅模块 **/
+#bannerbox img,
+#bannerbox ul,
+#bannerbox ol,
+#bannerbox li,
+#bannerbox span,
+#bannerbox div{
+  margin: 0;
+  padding: 0;
+}
+
+#bannerbox,
+#bannerbox .banner,
+#bannerbox .banner img{
+  min-height: 200px!important;
+  min-width: 100px!important;
+  max-height: 350px!important;
+  max-width: 700px!important;
+}
+
+#bannerbox{
+  margin: 8px auto;
+}
+#bannerbox .banner{
+  position: relative;
+  overflow: hidden;
+}
+#bannerbox .banner img{
+  position: relative;
+  vertical-align: top;
+  display: block;
+}
+
+#bannerbox .banner ul {
+  width: 1000%;
+  position: absolute;
+  list-style: none;
+  left:0;
+  top: 0;
+  }
+
+#bannerbox .banner li{ /* ul>li ol>li*/
+  float: left;
+  position: relative;
+  }
+#bannerbox .banner ul li span {
+  position: absolute;
+  display: block;
+  left: 1px;
+  bottom: 1px;
+  font-size: 16px;
+  width: 100%;
+  height: 28px;
+  line-height: 28px;
+  padding-left: 5px;
+  color: #fff;
+  font-weight: bold;
+  background-color: rgb(0 0 0 / .5);
+}
+#bannerbox .banner ol {
+  position: absolute;
+  height: 20px;
+  right: 20px;
+  bottom: 32px;
+  text-align: center;
+  padding: 5px;
+}
+#bannerbox .banner ol li{
+  display: inline-block;
+  color: #555;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  background-color: #fff;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 50px;
+}
+
+#bannerbox .banner ol .current{
+  color: #fff;
+  background-color: red;
+}
+#arr{
+  display: none;
+}
+#arr span{
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  left: 5px;
+  top: 50%;
+  margin-top: -20px;
+  background: #fff;
+  cursor: pointer;
+  line-height: 40px;
+  text-align: center;
+  font-weight: bold;
+  font-family: '黑体';
+  font-size: 30px;
+  color: #000;
+  opacity: 0.5;
+  border: 1px solid #fff;
+}
+#arr #right {
+  right: 5px;
+  left: auto;
+}
+
+
+/* 内容 */
+.content {
+  margin: 0 auto;
+  padding: 0 32px;
+  max-width: 800px;
+  margin-bottom: 50px;
+  line-height: 1.6em;
+  border-top: 1px solid #eee;
+}
+
+.header {
+  margin: 0;
+  color: #333;
+  text-align: center;
+  padding: 2.5em 2em 0;
+ }
+.header h1 {
+  margin: 0.2em 0;
+  font-weight: 300;
+}
+ .header h2 {
+  font-weight: 300;
+  color: #ccc;
+  padding: 0;
+  margin-top: 0;
+}
+
+.content-subhead {
+  margin: 50px 0 20px 0;
+  font-weight: 300;
+  color: #888;
+}
+
+/* 菜单 */
+
+#menu {
+  margin-left: -150px; /* "#menu" width */
+  width: 150px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 1000; /* so the menu or its navicon stays above all content */
+  background: #191818;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+/*
+All anchors inside the menu should be styled like this.
+*/
+#menu a {
+  color: #999;
+  border: none;
+  padding: 0.6em 0 0.6em 0.6em;
+}
+#menu .copyright a {
+  color: #777;
+  padding: 0;
+}
+/*
+Remove all background/borders, since we are applying them to #menu.
+*/
+#menu .pure-menu,
+#menu .pure-menu ul {
+  border: none;
+  background: transparent;
+}
+
+/*
+Add that light border to separate items into groups.
+*/
+#menu .pure-menu ul,
+#menu .pure-menu .menu-item-divided {
+  border-top: 1px solid #333;
+}
+/*
+Change color of the anchor links on hover/focus.
+*/
+#menu .pure-menu li a:hover,
+#menu .pure-menu li a:focus {
+  background: #333;
+}
+
+/*
+This styles the selected menu item `<li>`.
+*/
+#menu .pure-menu-selected,
+#menu .pure-menu-heading {
+  background: #1f8dd6;
+}
+/*
+This styles a link within a selected menu item `<li>`.
+*/
+#menu .pure-menu-selected a {
+  color: #fff;
+}
+
+/*
+This styles the menu heading.
+*/
+#menu .pure-menu-heading {
+  font-size: 110%;
+  color: #fff;
+  margin: 0;
+}
+
+/* 小屏幕按键顶栏 */
+#menuButton {
+  height: 45px;
+  background-color: #000;
+}
+
+#menuButton::before {
+  background: #000 linear-gradient(to left, #4cd964, #5ac8fa, #007aff, #34aadc, #5856d6, #ff2d55);
+  content: "";
+  height: 5px;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+#menuButton .link{
+  position: absolute;
+  z-index: 10;
+  background: #2196F3;
+  width: 24px;
+  font-size: 10px;
+  padding: 1.8em 1.6em;
+  overflow: hidden;
+  top: 6px;
+}
+
+#menuButton .title{
+  font-size: 1.6em;
+  color: white;
+  line-height: 45px;
+  text-align: center;
+}
+
+#menuButton .menu-link span {
+  position: relative;
+  display: block;
+}
+
+#menuButton .menu-link span,
+#menuButton .menu-link span:before,
+#menuButton .menu-link span:after {
+  background-color: #fff;
+  width: 100%;
+  height: 0.2em;
+}
+
+#menuButton .menu-link span:before,
+#menuButton .menu-link span:after {
+  position: absolute;
+  margin-top: -0.6em;
+  content: " ";
+}
+
+#menuButton .menu-link span:after {
+  margin-top: 0.6em;
+}
+
+
+/* 大屏幕 */
+@media (min-width: 48em) {
+  .banner,
+  .header,
+  .content {
+    padding: 0 2em;
+  }
+
+  #layout {
+    padding-left: 150px; /* left col width "#menu" */
+    left: 0;
+  }
+  #menu {
+    left: 150px;
+  }
+
+  #menuButton {
+    display: none;
+  }
+  #main article header .meta div {
+    display: inline-block;
+  }
+  #main article .content_detailed .sum_content {
+    min-height: 150px;
+  }
+  /**
+  article {
+    padding: 5px 15px;
+    border-radius: 2em;
+    border: 1px dashed #d9d9d9;
+  }**/
+}
+
+/* 小屏幕 */
+@media (max-width: 48em) {
+  #layout.active {
+    position: relative;
+    left: 150px;
+  }
+  article .content_detailed .sum_image {
+    display: none;
+  }
+}
